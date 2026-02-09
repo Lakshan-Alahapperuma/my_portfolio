@@ -1,0 +1,8 @@
+:root{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;color:#222}
+body{margin:0;background:#f7f7fb;display:flex;align-items:flex-start;justify-content:center;padding:40px}
+main{max-width:800px;width:100%;background:#fff;padding:28px;border-radius:10px;box-shadow:0 8px 30px rgba(10,10,20,.06)}
+header h1{margin:0 0 8px;font-size:26px}
+form{display:flex;flex-direction:column;gap:8px}
+input,textarea{padding:10px;border:1px solid #ddd;border-radius:6px;font-size:14px}
+button{padding:10px 14px;border-radius:6px;background:#2563eb;color:#fff;border:0}
+#response{margin-top:10px;color:#0b6}
