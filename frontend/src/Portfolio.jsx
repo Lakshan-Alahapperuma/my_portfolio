@@ -90,7 +90,7 @@ export default function Portfolio() {
       <nav className="nav">
         <div className="nav-logo">
           <span className="logo-bracket">&lt;</span>
-          <span className="logo-text">YourName</span>
+          <span className="logo-text">Lakshan Alahapperuma</span>
           <span className="logo-bracket">/&gt;</span>
         </div>
         <div className="nav-links">
