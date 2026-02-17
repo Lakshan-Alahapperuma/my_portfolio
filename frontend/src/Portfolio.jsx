@@ -72,14 +72,14 @@ export default function Portfolio() {
   return (
     <div className="portfolio-container">
       {/* Custom Cursor */}
-      <div 
+      <div
         className="custom-cursor"
         style={{
           left: `${mousePosition.x}px`,
           top: `${mousePosition.y}px`,
         }}
       />
-      
+
       {/* Animated Background */}
       <div className="bg-grid" />
       <div className="bg-gradient" style={{
@@ -109,7 +109,7 @@ export default function Portfolio() {
           }}>
             <span className="pill">Available for Hire</span>
           </div>
-          
+
           <h1 className="hero-title" style={{
             transform: `translateY(${scrollY * 0.3}px)`,
             opacity: 1 - scrollY / 600
@@ -123,7 +123,7 @@ export default function Portfolio() {
             transform: `translateY(${scrollY * 0.4}px)`,
             opacity: 1 - scrollY / 550
           }}>
-            Crafting exceptional digital experiences at the intersection of 
+            Crafting exceptional digital experiences at the intersection of
             <span className="highlight"> design</span>,
             <span className="highlight"> technology</span>, and
             <span className="highlight"> innovation</span>.
@@ -184,7 +184,7 @@ export default function Portfolio() {
 
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div 
+            <div
               key={index}
               className="project-card"
               style={{
@@ -212,8 +212,8 @@ export default function Portfolio() {
                 </button>
               </div>
 
-              <div 
-                className="project-accent" 
+              <div
+                className="project-accent"
                 style={{ backgroundColor: project.color }}
               />
             </div>
@@ -232,7 +232,7 @@ export default function Portfolio() {
 
           <div className="skills-grid">
             {skills.map((skill, index) => (
-              <div 
+              <div
                 key={index}
                 className="skill-item"
                 style={{ animationDelay: `${index * 0.1}s` }}
@@ -242,9 +242,9 @@ export default function Portfolio() {
                   <span className="skill-percentage">{skill.level}%</span>
                 </div>
                 <div className="skill-bar">
-                  <div 
+                  <div
                     className="skill-fill"
-                    style={{ 
+                    style={{
                       width: `${skill.level}%`,
                       animationDelay: `${index * 0.15}s`
                     }}
@@ -265,21 +265,13 @@ export default function Portfolio() {
             </h2>
             <div className="about-text">
               <p>
-                I'm a full-stack developer and designer passionate about creating 
-                digital experiences that are both beautiful and functional. With over 
-                5 years of experience, I specialize in building modern web applications 
-                using cutting-edge technologies.
+                I’m a software developer who enjoys building web applications that are clean, reliable, and easy to use. I have strong experience in both front-end and back-end development, and I like turning ideas into real, working products.
               </p>
               <p>
-                My approach combines technical expertise with design thinking, ensuring 
-                every project not only works flawlessly but also delivers an exceptional 
-                user experience. I believe in writing clean, maintainable code and 
-                creating interfaces that delight users.
+                I focus on writing simple, maintainable code and designing interfaces that feel natural for users. I enjoy solving problems, improving performance, and learning new tools that help me build better applications.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open-source projects, or sharing knowledge with the 
-                developer community.
+                Outside of project work, I spend time learning new technologies, experimenting with side projects, and improving my skills as a developer. I’m always interested in opportunities to create useful digital products and grow with new challenges.
               </p>
             </div>
           </div>
