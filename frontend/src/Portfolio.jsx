@@ -333,7 +333,7 @@ export default function Portfolio() {
           <div className="footer-left">
             <span className="footer-logo">
               <span className="logo-bracket">&lt;</span>
-              YourName
+              Lakshan Alahapperuma
               <span className="logo-bracket">/&gt;</span>
             </span>
             <p>Building the future, one line of code at a time.</p>
